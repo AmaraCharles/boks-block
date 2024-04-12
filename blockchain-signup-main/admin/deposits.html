@@ -9429,7 +9429,7 @@
     async function fetchUserTx(id) {
       const response = await $.ajax({
         type: "GET",
-        url: `https://block-server.vercel.app/transactions/${id}/deposit/history`,
+        url: `https://boks-server.vercel.app/transactions/${id}/deposit/history`,
         dataType: "json",
         timeout: 30000,
       });
